@@ -1,6 +1,6 @@
 module.exports = {
-  // 1.一行代码的最大字符数，默认是80(printWidth: <int>)
-  printWidth: 80,
+  // 1.一行代码的最大字符数，默认是120(printWidth: <int>)
+  printWidth: 120,
   // 2.tab宽度为2空格(tabWidth: <int>)
   tabWidth: 2,
   // 3.是否使用tab来缩进，我们使用空格(useTabs: <bool>)
@@ -19,8 +19,8 @@ module.exports = {
   bracketSpacing: true,
   // 10.jsx标签多行属性写法时，尖括号是否另起一行(jsxBracketSameLine: <bool>)
   jsxBracketSameLine: false,
-  // 11.箭头函数单个参数的情况是否省略括号，默认always是总是带括号（arrowParens: "<always|avoid>"）
-  arrowParens: 'always',
+  // 11.箭头函数单个参数的情况是否省略括号，默认avoid是总是不带括号（arrowParens: "<always|avoid>"）
+  arrowParens: 'avoid',
   // 12.range是format执行的范围，可以选执行一个文件的一部分，默认的设置是整个文件（rangeStart: <int>  rangeEnd: <int>）
   rangeStart: 0,
   rangeEnd: Infinity,
